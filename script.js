@@ -2,7 +2,7 @@ const scene = document.querySelector('#scene');
 const seat = document.querySelector('#seatOne');
 
 window.addEventListener('DOMContentLoaded', () => {
-    for(i = 1; i < 105; i++){
+    for(i = 1; i < 123; i++){
         const newSeat = seat.cloneNode(true);
         newSeat.setAttribute('id', 'seat' + (i + 1));
         
@@ -445,4 +445,72 @@ window.addEventListener('DOMContentLoaded', () => {
     var seatHundredSix = document.getElementById('seat106');
     seatHundredSix.setAttribute('position', '-1.000 0.064 -0.604');
     seatHundredSix.setAttribute('rotation', '0 -142 0');
+
+    var seatHundredSeven = document.getElementById('seat107');
+    seatHundredSeven.setAttribute('position', '-0.800 0.064 -0.604');
+    seatHundredSeven.setAttribute('rotation', '0 -150 0');
+
+    var seatHundredEight = document.getElementById('seat108');
+    seatHundredEight.setAttribute('position', '-0.600 0.064 -0.604');
+    seatHundredEight.setAttribute('rotation', '0 -159 0');
+
+    var seatHundredNine = document.getElementById('seat109');
+    seatHundredNine.setAttribute('position', '-2.323 0.064 -1.817');
+    seatHundredNine.setAttribute('rotation', '0 -90 0');
+
+    var seatHundredTen = document.getElementById('seat110');
+    seatHundredTen.setAttribute('position', '-2.000 0.064 -1.817');
+    seatHundredTen.setAttribute('rotation', '0 -100 0');
+
+    var seatHundredEleven = document.getElementById('seat111');
+    seatHundredEleven.setAttribute('position', '-1.750 0.064 -1.817');
+    seatHundredEleven.setAttribute('rotation', '0 -110 0');
+
+    var seatHundredTwelve = document.getElementById('seat112');
+    seatHundredTwelve.setAttribute('position', '-1.500 0.064 -1.817');
+    seatHundredTwelve.setAttribute('rotation', '0 -120 0');
+
+    var seatHundredThirteen = document.getElementById('seat113');
+    seatHundredThirteen.setAttribute('position', '-1.250 0.064 -1.817');
+    seatHundredThirteen.setAttribute('rotation', '0 -130 0');
+
+    var seatHundredFourteen = document.getElementById('seat114');
+    seatHundredFourteen.setAttribute('position', '-1.000 0.064 -1.817');
+    seatHundredFourteen.setAttribute('rotation', '0 -140 0');
+
+    var seatHundredFifteen = document.getElementById('seat115');
+    seatHundredFifteen.setAttribute('position', '-0.750 0.064 -1.817');
+    seatHundredFifteen.setAttribute('rotation', '0 -150 0');
+
+    var seatHundredSixteen = document.getElementById('seat116');
+    seatHundredSixteen.setAttribute('position', '-0.500 0.064 -1.817');
+    seatHundredSixteen.setAttribute('rotation', '0 -160 0');
+
+    var seatHundredSeventeen = document.getElementById('seat117');   
+    seatHundredSeventeen.setAttribute('position', '-2.323 0.064 -2.917');
+    seatHundredSeventeen.setAttribute('rotation', '0 -90 0');
+
+    var seatHundredEighteen = document.getElementById('seat118');
+    seatHundredEighteen.setAttribute('position', '-2.000 0.064 -2.917');
+    seatHundredEighteen.setAttribute('rotation', '0 -100 0');
+
+    var seatHundredNineteen = document.getElementById('seat119');
+    seatHundredNineteen.setAttribute('position', '-1.750 0.064 -2.917');
+    seatHundredNineteen.setAttribute('rotation', '0 -110 0');
+
+    var seatHundredTwenty = document.getElementById('seat120');
+    seatHundredTwenty.setAttribute('position', '-1.500 0.064 -2.917');
+    seatHundredTwenty.setAttribute('rotation', '0 -120 0');
+
+    var seatHundredTwentyOne = document.getElementById('seat121');
+    seatHundredTwentyOne.setAttribute('position', '-4.323 0.064 -2.917');
+    seatHundredTwentyOne.setAttribute('rotation', '0 -90 0');
+
+    var seatHundredTwentyTwo = document.getElementById('seat122');
+    seatHundredTwentyTwo.setAttribute('position', '-4.013 0.064 -2.917');
+    seatHundredTwentyTwo.setAttribute('rotation', '0 -90 0');
+
+    var seatHundredTwentyThree = document.getElementById('seat123');
+    seatHundredTwentyThree.setAttribute('position', '-5.000 0.064 -2.917');
+    seatHundredTwentyThree.setAttribute('rotation', '0 -80 0');
 });
