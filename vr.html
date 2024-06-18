@@ -13,12 +13,20 @@
   <a-scene id="scene">
     <a-plane position="0 0 -4" rotation="-90 0 0" width="1500" height="1500" depth="8"
       src="assets/vrfloor.jpeg"></a-plane>
-    <a-box position="2.024 0 0" height="0" depth="0" scale="0.218 5.925 16.273" color="#fec64d"></a-box>
-    <a-box position="-8.567 0 0" height="0" depth="0" scale="0.218 5.925 16.273" color="#fec64d"></a-box>
-    <a-box position="-3.215 0 -8.087" height="0" depth="0" scale="0.218 5.925 10.661" color="#fec64d"
+    <a-box position="2.024 0 1.167" height="0" depth="0" scale="0.218 5.925 13.876" color="#fec64d"></a-box>
+    <a-box position="-8.567 0 1.252" height="0" depth="0" scale="0.218 5.925 13.876" color="#fec64d"></a-box>
+    <a-box position="-3.237 0 -5.691" height="0" depth="0" scale="0.218 5.925 10.661" color="#fec64d"
       rotation="0 -90 0"></a-box>
     <a-box position="-3.215 0 8.087" height="0" depth="0" scale="0.218 5.925 10.661" color="#fec64d"
       rotation="0 -90 0"></a-box>
+
+    <a-box id="roof" position='-3.414 2.938 1.158' width='12' height='0.2' depth='14' color='#9e7400'></a-box>
+
+    <a-box id="legOne" position='-4.000 0.000 2.000' width='0.1' depth='0.1' height='0.5' color='#fec64d'></a-box>
+    <a-box id="legTwo" position='-2.200 0.000 2.000' width='0.1' depth='0.1' height='0.5' color='#fec64d'></a-box>
+    <a-box id="legThree" position='-4.000 0.000 5.000' width='0.1' depth='0.1' height='0.5' color='#fec64d'></a-box>
+    <a-box id="legFour" position='-2.200 0.000 5.000' width='0.1' depth='0.1' height='0.5' color='#fec64d'></a-box>
+    <a-box id="table" position='-3.100 0.250 3.500' width='2' height='0.050' depth='3.1' color='#fec64d'></a-box>
 
     <a-entity id="seatOne" position="-3.257 0.064 6.657">
       <!--   -->
@@ -37,7 +45,6 @@
       <a-sphere segmentsHeight="18" color="black" scale="0.016 0.062 0.020" position="-1.725 0.490 0.000"
         segmentsWidth="36" rotation="0 0 25.870"></a-sphere>
     </a-entity>
-    
   </a-scene>
   <script defer src="script.js"></script>
 </body>

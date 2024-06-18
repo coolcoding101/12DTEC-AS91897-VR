@@ -2,7 +2,7 @@ const scene = document.querySelector('#scene');
 const seat = document.querySelector('#seatOne');
 
 window.addEventListener('DOMContentLoaded', () => {
-    for(i = 1; i < 123; i++){
+    for(i = 1; i < 124; i++){
         const newSeat = seat.cloneNode(true);
         newSeat.setAttribute('id', 'seat' + (i + 1));
         
@@ -511,6 +511,11 @@ window.addEventListener('DOMContentLoaded', () => {
     seatHundredTwentyTwo.setAttribute('rotation', '0 -90 0');
 
     var seatHundredTwentyThree = document.getElementById('seat123');
-    seatHundredTwentyThree.setAttribute('position', '-5.000 0.064 -2.917');
-    seatHundredTwentyThree.setAttribute('rotation', '0 -80 0');
+    seatHundredTwentyThree.setAttribute('position', '-3.350 0.100 5.567');
+    seatHundredTwentyThree.setAttribute('rotation', '0 90 0');
+    seatHundredTwentyThree.setAttribute('scale', '1 2 1');
+    
+    var seatHundredTwentyFour = document.getElementById('seat124');
+    seatHundredTwentyFour.setAttribute('position', '-3.350 -0.073 3.189');
+    seatHundredTwentyFour.setAttribute('rotation', '0 90 0');
 });
